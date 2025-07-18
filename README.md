@@ -13,5 +13,3 @@ This guide will help you install Expo Go and document your setup process.
 5. Create a new account or log in if you already have one.
 
 ## Setup Notes & Challenges
-
----
