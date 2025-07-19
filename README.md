@@ -1,0 +1,1 @@
+This is a project on using react native for mobile applications development.
