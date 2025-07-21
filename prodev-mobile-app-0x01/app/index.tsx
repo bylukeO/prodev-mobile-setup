@@ -3,6 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+
       <Text>Entry Screen - Awesome</Text>
 
       <View>
@@ -15,20 +16,15 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#90caf9", 
-    flex: 1,
-    justifyContent: 'center', 
-    alignItems: 'center', 
-    padding: 20,
+    container: {
+    backgroundColor: "#90caf9", // 
   },
 
   largeText: {
-    fontSize: 30, 
-    color: "#f44336",
-    marginBottom: 5, 
+    fontSize: 30,
+    color: "#f44336", 
     fontWeight: "700", 
-    fontVariant: ["small-caps"], 
+    fontVariant: ["small-caps"],
   },
 
   mediumText: {
@@ -42,6 +38,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: "#2196f3",
     fontWeight: "400",
-    textAlign: "center",
+    textAlign: "center", 
   },
 });
