@@ -103,6 +103,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 25,
   },
+<<<<<<< HEAD
   largeText: {
     color: "white",
     fontSize: 32,
@@ -122,3 +123,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+=======
+});
+>>>>>>> 08e1ef19cde25149d1d2762cbace15625d2abc64
