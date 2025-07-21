@@ -19,6 +19,9 @@ export default function Index() {
               <Text style={styles.textLarge}>Find your favorite place here</Text>
               <Text style={styles.textSmall}>The best prices for over 2 </Text>
               <Text style={styles.textSmall}>million properties worldwide</Text>
+              <Text style={styles.largeText}>Typescript is great if you practice more</Text>
+              <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+              <Text style={styles.smallText}>ALX is awesome</Text>
             </View>
 
             <View style={{ position: "absolute", bottom: 0, width: "100%" }}>
@@ -99,5 +102,23 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     paddingHorizontal: 32,
     borderRadius: 25,
+  },
+  largeText: {
+    color: "white",
+    fontSize: 32,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 8,
+  },
+  mediumText: {
+    color: "white",
+    fontSize: 20,
+    textAlign: "center",
+    marginBottom: 8,
+  },
+  smallText: {
+    color: "white",
+    fontSize: 14,
+    textAlign: "center",
   },
 });
