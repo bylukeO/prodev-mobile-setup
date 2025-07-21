@@ -1,7 +1,6 @@
-import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function HomeScreen() {
+export default function App() {
   return (
     <View style={styles.container}>
       <Text>Entry Screen - Awesome</Text>
@@ -17,29 +16,32 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#90caf9',
+    backgroundColor: "#90caf9", 
     flex: 1,
+    justifyContent: 'center', 
+    alignItems: 'center', 
     padding: 20,
-    justifyContent: 'center',
   },
+
   largeText: {
-    fontSize: 30,
-    color: '#f44336',
-    marginBottom: 5,
-    fontWeight: '700',
-    fontVariant: ['small-caps'],
+    fontSize: 30, 
+    color: "#f44336",
+    marginBottom: 5, 
+    fontWeight: "700", 
+    fontVariant: ["small-caps"], 
   },
+
   mediumText: {
     fontSize: 20,
-    color: '#9c27b0',
+    color: "#9c27b0",
     marginBottom: 10,
-    fontWeight: '500',
-    textAlign: 'right',
+    fontWeight: "500",
+    textAlign: "right",
   },
   smallText: {
     fontSize: 15,
-    color: '#2196f3',
-    fontWeight: '400',
-    textAlign: 'center',
+    color: "#2196f3",
+    fontWeight: "400",
+    textAlign: "center",
   },
 });
